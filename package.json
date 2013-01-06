@@ -1,0 +1,31 @@
+{
+    "name": "google-tools",
+    "version": "0.0.1",
+    "description": "Compilation of various google utility functions",
+    "author": "Eric Abouaf <eric.abouaf@gmail.com>",
+    "engines": {
+        "node" : ">=0.6.0"
+    },
+    "keywords": [
+        "seo",
+        "google",
+        "pagerank",
+        "search",
+        "screen",
+        "scraping",
+        "scrape",
+        "scraper"
+    ],
+    "main" : "index.js",
+    "directories" : { "lib" : "./lib" },
+    "repository": {
+        "type":"git",
+        "url":"http://github.com/neyric/node-google-tools.git"
+    },
+    "dependencies": {
+        "pagerank": "1.2.0",
+        "request": "2.9.202",
+        "htmlparser": "1.7.6",
+        "async": "0.1.22"
+    }
+}
