@@ -1,6 +1,6 @@
 {
     "name": "google-tools",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Compilation of various google utility functions",
     "author": "Eric Abouaf <eric.abouaf@gmail.com>",
     "engines": {
