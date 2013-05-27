@@ -46,6 +46,9 @@ var google = {
             if(err) { return cb(err, null); }
 
             for(var i = 0 ; i < results.results.length; i++) {
+
+                if(!results.results[i].link) { continue; };
+
                 if(results.results[i].link.substr(0, p.url.length) === p.url) {
                     cb(null, i+1);
                     return;
